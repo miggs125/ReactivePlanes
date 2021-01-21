@@ -5,9 +5,9 @@ const state = {
   sections: 3,
   top: createRef(),
   pages: 3,
-  zoom: 75,
+  zoom: 8,
   offsetContext: createContext(0),
-  mousemove_x: createRef(0),
+  mousemove: createRef(false),
   mousePosition: createRef(new Vector2())
 }
 
